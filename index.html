@@ -21,6 +21,7 @@
       body {
             padding-top: 50px;
             }
+      li {cursor: pointer}
       .starter-template {
             padding: 40px 15px;
             text-align: center;
@@ -143,7 +144,9 @@
           </ul>
           <ul class="nav navbar-nav navbar-right" style="padding-right: 20px;">
             <li><a data-toggle="modal" data-target="#myModal"><i class="fa fa-bell"  style="font-size:20px;color:white"></i><span class="badge badge-light">9</span></a></li>
-            <li style="padding-right: 30px;"><a data-toggle="modal" data-target="#myModal2"><i class="fa fa-user-o"  style="font-size:20px;color:white"></i></a></li>
+
+            <li style="padding-right: 30px;"><a data-toggle="modal" data-target="#myModal2"><i class="fa fa-user-o"  style="font-size:20px;color:white;"></i></a></li>
+
             <li><img src="img\profile.png" height="40px" class="img-circle" style="padding-top: 6px;" /></li>
             <li  style="padding-top: 5px;padding-left: 5px;"><h4>John Doe</h4></li>
           </ul>
@@ -152,17 +155,18 @@
       </div>
     </nav>
 
+    <div style="width: 100%; margin-top: 0px;box-shadow: 5px 3px 2px grey;" >
 
         <div class="container-fluid">
             <div class="navbar-header">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav na">
 
                     <li>
-                        <a href="#"><i class="fa fa-user-md"></i> Patient Entry</a>                    </li>
+                        <a href="#"><i class="fa fa-user-md"></i>Patient Entry</a>                    </li>
                     <li>
-                        <a href="#"><i class="fa fa-medkit"></i> Service Dummy</a>                    </li>
+                        <a href="#"><i class="fa fa-medkit"></i>   Service Dummy</a>                    </li>
                     <li>
-                        <a href="#"><i class="fa fa-bullhorn"></i> Q.manage</a>                    </li>
+                        <a href="#"><i class="fa fa-bullhorn"></i>   Q.manage</a>                    </li>
                     <li>
                         <a href="#"><i class="fa fa-thermometer"></i> LAB</a>                    </li>
                     <li>
@@ -185,6 +189,7 @@
 
             </div>
         </div>
+    </div>
 
 
 
@@ -199,18 +204,23 @@
     </div><!-- /.container -->
 
     <!-- Modal -->
-	<div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal right fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title" id="myModalLabel">Left Sidebar</h4>
+					<h4 class="modal-title" id="myModalLabel">Notification</h4>
 				</div>
 
 				<div class="modal-body">
-					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-					</p>
+					<ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+          </ul>
 				</div>
 
 			</div><!-- modal-content -->
@@ -224,12 +234,17 @@
 
     				<div class="modal-header">
     					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-    					<h4 class="modal-title" id="myModalLabel2">Right Sidebar</h4>
+    					<h4 class="modal-title" id="myModalLabel2">Queue</h4>
     				</div>
 
     				<div class="modal-body">
-    					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-    					</p>
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+              </ul>
     				</div>
 
     			</div><!-- modal-content -->
